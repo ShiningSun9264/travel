@@ -25,11 +25,8 @@ public class UserController {
         List<User> userList = userService.findAll();
         model.addAttribute("userList",userList);
         //经过视图解析器跳转页面
-        return  "userList.jsp";
+        return  "userList";
     }
-    @RequestMapping("/find")
-    public String find(Model model){
-        return  "travalNote";
-    }
+
 
     }

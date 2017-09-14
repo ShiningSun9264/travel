@@ -9,8 +9,8 @@ spring:
     password: HT1706
   mvc:
     view:
-      prefix: classpath:/templates/
-      suffix: .html
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
 mybatis:
   config-location: classpath:/mybatis/mybatis-config.xml
   mapper-locations: classpath:/mybatis/mappers/*.xml
